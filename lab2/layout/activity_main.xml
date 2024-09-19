@@ -5,12 +5,48 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MyActivity2">
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/back"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_activity"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Back"/>
+        android:text="@string/btn_activity"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_map"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_browser"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_alarm"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_image"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_weight="5"/>
 </LinearLayout>
